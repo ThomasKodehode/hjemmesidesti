@@ -1,0 +1,24 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-links {
+  display: flex;
+  gap: 1rem;
+}
+.navigation-links > li {
+  list-style-type: none;
+}
